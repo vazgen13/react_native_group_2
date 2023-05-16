@@ -8,6 +8,9 @@ function App() {
     fetch('https://api.github.com/users').then(res=>res.json()).then(setUsers)
   }, [])
 
+  useEffect(()=>{
+  }, [])
+
   return (
     <div>
       {
